@@ -1,0 +1,2 @@
+<%= @css_class_name %>
+  // Css for <%= file_name %> block here

@@ -1,0 +1,10 @@
+Description:
+    Generate new block for views
+
+Example:
+    rails generate block menu_footer
+
+    This will create:
+        views/_blocks/menus/_menu_footer.html.haml
+        stylesheets/_blocks/menus/_menu_footer.css.sass
+        javascripts/_blocks/menus/_menu_footer.js.coffee

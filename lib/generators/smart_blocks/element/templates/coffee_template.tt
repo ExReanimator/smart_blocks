@@ -1,0 +1,4 @@
+# CoffeeScript for element <%= file_name %>
+# Example:
+# $('<%= @css_class_name %>').click ->
+#   # Your script here

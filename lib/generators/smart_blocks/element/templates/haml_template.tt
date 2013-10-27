@@ -1,0 +1,7 @@
+-# Element: Write description for this element here
+-# Params:
+-# param1 [string] - description and variants
+-# param2 [string] - description and variants
+
+<%= @css_class_name %>
+  -# Your element here

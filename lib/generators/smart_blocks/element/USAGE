@@ -1,0 +1,10 @@
+Description:
+    Generate new elements for blocks and views
+
+Example:
+    rails generate element menu_link
+
+    This will create:
+        views/_blocks/menus/elements/_menu_link.html.haml
+        stylesheets/_blocks/menus/elements/_menu_link.css.sass
+        javascripts/_blocks/menus/elements/_menu_link.js.coffee
