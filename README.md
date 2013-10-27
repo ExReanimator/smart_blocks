@@ -27,7 +27,7 @@ And to js manifest (application.js):
 ## Usage
 
 #### Create block
-```
+``` bash
 $ rails g smart_blocks:block header_main
   # create -> app/views/_blocks/headers/_header_main.html.haml
   # create -> app/assets/stylesheets/_blocks/headers/header_main.css.sass
@@ -36,7 +36,7 @@ $ rails g smart_blocks:block header_main
 
 #### Create element (parts of block)
 
-```
+``` bash
 $ rails g smart_blocks:element header_logged_in
   # create -> app/views/_blocks/headers/elements/_header_logged_in.html.haml
   # create -> app/assets/stylesheets/_blocks/headers/elements/header_logged_in.css.sass
@@ -46,7 +46,7 @@ $ rails g smart_blocks:element header_logged_in
 #### Views
 
 (layout/application.html.haml):
-```
+``` ruby
 = block 'header_main'
 ```
 Show in this block elements depends on logged in user or not
