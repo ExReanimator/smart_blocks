@@ -15,12 +15,24 @@ And then execute:
 Or install it yourself as:
 
     $ gem install smart_blocks
+
+By default you should good to go to switch to the next section: **Usage**. However, if you don't have in `application.css` this:
+
+```css
+*= require_tree .
+```
+
+And/or you don't have in `application.js` this:
+
+```css
+//= require_tree .
+```
     
-Then add to css manifest (application.css):
+*Then* you need to include new folder to your manifests. Add to css manifest (`application.css`):
 
     *= require_tree ./_blocks
     
-And to js manifest (application.js):
+And add to js manifest (`application.js`):
 
     //= require_tree ./_blocks
     
