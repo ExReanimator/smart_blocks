@@ -23,6 +23,8 @@ Then add to css manifest (application.css):
 And to js manifest (application.js):
 
     //= require_tree ./_blocks
+    
+After that restart your rails server, it's important (if you are on Rails).    
 
 ## Usage
 
