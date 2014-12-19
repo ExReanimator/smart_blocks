@@ -1,0 +1,7 @@
+-# Block: Write description for this block here
+-# Params:
+-# param1 [string] - description and variants
+-# param2 [string] - description and variants
+
+<%= @css_class_name %>
+  -# Your block here

@@ -15,16 +15,16 @@ And then execute:
 Or install it yourself as:
 
     $ gem install smart_blocks
-    
+
 Then add to css manifest (application.css):
 
     *= require_tree ./_blocks
-    
+
 And to js manifest (application.js):
 
     //= require_tree ./_blocks
-    
-After that restart your rails server, it's important (if you are on Rails).    
+
+After that restart your rails server, it's important (if you are on Rails).
 
 ## Usage
 
@@ -63,6 +63,15 @@ Also you can pass variables:
 ``` ruby
 = block 'menu_main', some_var: value
 = element 'button_submit', other_var: value
+```
+
+#### Flags
+
+You can generate slim view instead of haml. To do that just pass `--slim`:
+
+```bash
+rails g smart_blocks:block   navbar --slim
+rails g smart_blocks:element navbar_link --slim
 ```
 
 ## Contributing
